@@ -20,3 +20,8 @@ subzero [2]
 superobedient [2]
 alvera [3]
 ```
+
+### TODO
+
+ * Search for single words within sentences
+ * Search for sentences within sentences
