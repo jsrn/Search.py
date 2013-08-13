@@ -1,11 +1,22 @@
 import sys, argparse
 import distances
 
+def sentencesearch( searchterm ):
+	print "Sentence search not yet implemented"
+	return []
+
 def wordsearch( searchterm ):
 	results = []
 	for word in dictionary:
+		# Somewhere here we need to check if the dictionary word is actually a sentence
 		results.append( [ algo( searchterm, word), word ] )
 	return sorted( results )
+
+def search( searchterm ):
+	if " " not in searchterm:
+		return wordsearch( searchterm )
+	else:
+		return sentencesearch( searchterm )
 
 # Iterate through the results list and print
 def printresults( results, quantity=10 ):
@@ -38,7 +49,6 @@ if args.dict is not None:
 
 if args.algo is not None:
 	algo = algos[args.algo]
-
 # end processing args
 
 # Load lines from dict into dictionary
@@ -47,5 +57,6 @@ with open( wordlist ) as f:
     for line in f:
         dictionary.append( line.rstrip('\n') )
 
-print "Searching for term '" + searchterm + "' in a list of " + str( len( dictionary ) ) + " words."
-printresults( wordsearch( searchterm ) )
+# Search!
+print "Searching for term '{0}' in a list of {1} words.".format( searchterm, str( len( dictionary ) ) )
+printresults( search( searchterm ) )
