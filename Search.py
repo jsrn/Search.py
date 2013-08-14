@@ -1,9 +1,34 @@
-import sys, argparse
+import sys, argparse, re
 import distances
 
+def prep_line( line ):
+	line = line.lower()
+	line = re.sub( '[^a-z ]', '', line )
+	line = re.sub( '  ', ' ', line )
+	line = line.strip( ' ' )
+	return set( line.split( ' ' ) )
+
 def sentencesearch( searchterm ):
-	print "Sentence search not yet implemented"
-	return []
+	s_terms = prep_line( searchterm )
+	results = []
+	for sentence in dictionary:
+		display_sentence = sentence
+		words = prep_line( sentence )
+		total = 0
+		wtemp = ""
+		print words
+		for s in s_terms:
+			lowest_for_s = 999
+			for w in words:
+				d = distances.custom( s, w )
+				if d < lowest_for_s:
+					lowest_for_s = d
+					wtemp = w
+			total += lowest_for_s
+			words.remove(wtemp)
+		total += len( words )
+		results.append( [total, display_sentence] )
+	return sorted( results )
 
 def wordsearch( searchterm ):
 	results = []
