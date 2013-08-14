@@ -1,0 +1,115 @@
+Demolish to ground level existing brick buildings / single storey
+Break up debris and arisings, load into skips or lorries / unreinforced concrete slabs
+Break up debris and arisings, load into skips or lorries / reinforced concrete slabs
+Break up debris and arisings, load into skips or lorries / reinforced suspended concrete slabs 
+Break up debris and arisings, load into skips or lorries / reinforced concrete beams
+Break up debris and arisings, load into skips or lorries / reinforced concrete columns
+Break up debris and arisings, load into skips or lorries / Demolish brick walls in cement mortar 
+Break up debris and arisings, load into skips or lorries / Demolish brick walls in cement lime mortar
+Break up debris and arisings, load into skips or lorries / Carefully take down brick walls in cement lime mortar, clean bricks and lay aside for re-use
+Break up debris and arisings, load into skips or lorries / Take out fireplace and surround, load into skips or lorries
+Break up debris and arisings, load into skips or lorries / Demolish blockwork partitions
+Excavate by hand / topsoil
+Excavate by hand / to reduce levels, depth not exceeding
+Excavate by hand / to trenches 450mm wide, depth not exceeding
+Excavate by hand / to pits, depth not exceeding
+Excavate by hand / Extra for excavating through
+Excavate by machine / topsoil
+Excavate by machine / to reduce levels, depth not exceeding
+Excavate by machine / to trenches 450mm wide, depth not exceeding
+Excavate by machine / to pits, depth not exceeding
+Excavate by machine / Extra for excavating through
+Earthwork support not exceeding 2m between opposite faces, depth not exceeding 1m
+Earthwork support not exceeding 2m between opposite faces, depth not exceeding 2m
+Earthwork support not exceeding 2m between opposite faces, depth not exceeding 4m
+Load surplus excavated material into barrows, wheel and deposit in temporary spoil, average distance
+Load surplus excavated material into barrows, wheel and spread over site, average distance
+Load surplus excavated material into barrows, wheel and deposit in skips or lorries, average distance 
+Load and deposit in temporary spoil heaps, average distance
+Load and spread over site, average distance
+Load in lorries and take to tip average distance
+Surplus excavated material deposited and compacting in layers
+Imported sand deposited and compacting in layers
+Imported hardcore deposited and compacting in layers
+Surplus excavated material deposited and compacting in layers
+Surplus excavated material deposited to sides of trenches
+Imported sand deposited and compacting in layers
+Imported hardcore deposited and compacting in layers
+Level and compact bottom of excavation with vibrating roller
+Blind filling surfaces with sand 
+Sawn softwood, untreated / Floor members
+Sawn softwood, untreated / Partitions
+Sawn softwood, untreated / Flat roofs
+Sawn softwood, untreated / Pitched roofs
+Sawn softwood, untreated / Kerbs and bearers
+Sawn softwood, untreated / Solid strutting
+Sawn softwood, untreated / Herringbone strutting, 50 x 50mm to joists, depth
+Sawn softwood, impregnated / Floor members
+Sawn softwood, impregnated / Partitions
+Sawn softwood, impregnated / Flat roofs
+Sawn softwood, impregnated / Pitched roofs
+Sawn softwood, impregnated / Kerbs and bearers
+Sawn softwood, impregnated / Solid strutting
+Sawn softwood, impregnated / Herringbone strutting, 50 x 50mm to joists, depth
+Gutters and fascias / Marine quality plywood in gutters over 300mm wide, thickness
+Gutters and fascias / Marine quality plywood in gutters 150mm wide, thickness
+Gutters and fascias / Marine quality plywood in gutters 300mm wide, thickness
+Gutters and fascias / Marine quality plywood in eaves, verges, soffits, fascias over 300mm wide, thickness
+Gutters and fascias / Marine quality plywood in gutters 150mm wide, thickness
+Gutters and fascias / Marine quality plywood in gutters 300mm wide, thickness
+Wrought softwood supports / Bearers, framed
+Wrought softwood supports / Bearers, plugged and screwed
+Metal fixings / Galvanised mild steel joist hangers, built in
+Metal fixings / Galvanised mild steel square toothed timber connectors, single sided, diameter
+Metal fixings / Galvanised mild steel square toothed timber connectors, double sided, diameter
+Metal fixings / Galvanised mild steel restraint straps 30 x 2.5mm, girth
+Metal fixings / Galvanised mild steel bolts, 100mm long, diameter
+Metal fixings / Galvanised mild steel bolts, 140mm long, diameter
+Woodwool reinforced slabs / 50mm thick, fixed to softwood joists in lengths
+Woodwool reinforced slabs / 75mm thick, fixed to softwood joists in lengths
+Decking  / WPB grade plywood roof decking fixed to roof joists
+Sheeting / Bituthene  sheeting 
+Flooring / Wrought softwood boarding, butt-jointed
+Flooring / Wrought softwood boarding, tongued and grooved
+Flooring / Chipboard flooring, butt-jointed, thickness
+Flooring / Chipboard flooring, tongued and grooved, thickness
+Linings / Melamine-faced chipboard, 15mm thick to walls
+Linings / Plain chipboard, 12mm thick to walls
+Linings / Birch-faced blockboard, 12mm thick to walls
+Linings / Standard quality hardboard, 3.2mm thick to walls
+Linings / Standard quality hardboard, 6mm thick to walls
+Linings / Internal quality plywood, 4mm thick to walls
+Linings / Internal quality plywood, 6mm thick to walls
+Linings / Insulation board, 12mm thick to walls
+Windows / Standard casement pre-glazed windows, type
+Windows / Standard horizontal bar pre–glazed windows, type
+Windows / PVC-U windows, double glazed, size
+Doors / Standard internal flush doors, walnut veneered both sides, 35mm thick, size
+Doors / Standard internal flush fire doors, walnut veneered both sides, 35mm thick, size
+Doors / Standard internal flush doors, oak veneered both sides, 40mm thick, size
+Doors / Standard internal flush fire doors, oak veneered both sides, 40mm thick, size
+Doors / Standard internal flush doors, sapele veneered both sides, 35mm thick, size
+Doors / Standard internal flush fire doors, sapele veneered both sides, 35mm thick, size
+Doors / Standard internal flush doors, ash veneered both sides, 40mm thick, size
+Doors / Standard internal flush fire doors, ash veneered both sides, 40mm thick, size
+Doors / External Carolina oak pre–glazed doors, 54mm thick, size 
+Doors / External Arden walnut oak pre-glazed doors, 54mm thick, size 
+Doors / External softwood single panel pre-glazed doors, 54mm thick, size 
+Doors / External softwood two panel pre-glazed doors, 54mm thick, size 
+Doors / Framed, ledged and braced doors, 44mm thick
+Door frames and linings / Standard door lining with loose stops, for door size 686 x 1981mm
+Door frames and linings / Standard door lining with loose stops, for door size 762 x 1981mm
+Door frames and linings / Wrought softwood rebated and rounded frames, size
+Door frames and linings / Sapele rebated and rounded frames, size
+Stairs / Wrought softwood open-tread staircase in one flight, 2600mm height, 2700mm going, 12 treads and 13 risers, width
+Stairs / Wrought softwood closed-tread staircase in one flight, 2600mm height, 2700mm going, 12 treads and 13 risers, width
+Stairs / Hardwood open-tread staircase in one flight, 2600mm height, 2700mm going, 12 treads and 13 risers, width
+Stairs / Hardwood closed-tread staircase in one flight, 2600mm height, 2700mm going, 12 treads and 13 risers, width
+Kitchen fittings / Fix only wall units
+Kitchen fittings / Fix only base units
+Kitchen fittings / Fix only sink units
+Kitchen fittings / Fix only worktops
+Insulation / Glass fibre quilt laid over ceiling joists, thickness
+Insulation / Glass fibre quilt fixed vertically to softwood, thickness
+Insulation / Expanded polystyrene board fixed vertically to walls with adhesive, thickness
+Ironmongery / Fix only to softwood
