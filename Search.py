@@ -2,10 +2,13 @@ import sys, argparse, re
 import distances
 
 def prep_line( line ):
+	print "Before:", str( len( line.split( ' ' ) ) ) 
 	line = line.lower()
-	line = re.sub( '[^a-z ]', '', line )
+	line = re.sub( '[^a-z0-9 ]', '', line )
+	line = re.sub( ' [and|of|to|from|the|at|in|on|to|by] ', ' ', line )
 	line = re.sub( '  ', ' ', line )
 	line = line.strip( ' ' )
+	print "After:", str( len( line.split( ' ' ) ) ) 
 	return set( line.split( ' ' ) )
 
 def sentencesearch( searchterm ):
@@ -18,6 +21,8 @@ def sentencesearch( searchterm ):
 		wtemp = ""
 		print words
 		for s in s_terms:
+			if( len( words ) == 0 ): # Dive out if we've exhausted terms in T
+				break
 			lowest_for_s = 999
 			for w in words:
 				d = distances.custom( s, w )
@@ -34,7 +39,7 @@ def wordsearch( searchterm ):
 	results = []
 	for word in dictionary:
 		# Somewhere here we need to check if the dictionary word is actually a sentence
-		results.append( [ algo( searchterm, word), word ] )
+		results.append( [ algo( searchterm, word ), word ] )
 	return sorted( results )
 
 def search( searchterm ):
@@ -54,23 +59,23 @@ algos['dl'] = distances.dameraulevenshtein
 algos['c'] = distances.custom
 
 # begin defaults
-wordlist = "dicts/100words.txt"
+wordlist = "100words.txt"
 searchterm = "kitten"
 algo = distances.custom
 # end defaults
 
 # process args
 parser = argparse.ArgumentParser()
-parser.add_argument('--search', help="Term to search for.")
-parser.add_argument('--dict', help="Filename of the wordlist to search.")
-parser.add_argument('--algo', help="l: Levenshtein, d: Damarau-Levenshtein, c: Custom")
+parser.add_argument( '--search', help="Term to search for."                               )
+parser.add_argument(   '--dict', help="Filename of the wordlist to search."               )
+parser.add_argument(   '--algo', help="l: Levenshtein, d: Damarau-Levenshtein, c: Custom" )
 args = parser.parse_args()
 
 if args.search is not None:
 	searchterm = args.search
 
 if args.dict is not None:
-	wordlist = "dicts/" + args.dict
+	wordlist = args.dict
 
 if args.algo is not None:
 	algo = algos[args.algo]
@@ -78,9 +83,9 @@ if args.algo is not None:
 
 # Load lines from dict into dictionary
 dictionary = []
-with open( wordlist ) as f:
-    for line in f:
-        dictionary.append( line.rstrip('\n') )
+with open( "dicts/" + wordlist ) as f:
+	for line in f:
+		dictionary.append( line.rstrip('\n') )
 
 # Search!
 print "Searching for term '{0}' in a list of {1} words.".format( searchterm, str( len( dictionary ) ) )
